@@ -1,0 +1,32 @@
+/* CSS Document */
+
+*			{ margin:0; Padding:0; border:0; }
+
+body, html 	{ min-height:100%; }
+
+body 	 	{ background-image:url(../img/bg/background1200x1000.fw.png); background-repeat:no-repeat; background-size: cover; font-family:Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;}
+
+#wrapper 	{ width:1010px; margin:0px auto; }
+
+#header 	{ width:1000px;	 height:190px; background-image:url(../img/banner/logo_bar.fw.png); margin-top:10px;}
+
+#topnav 		{ width:500px; float:right;	padding-top:60px;}
+#topnav ul li 	{ display:inline; margin-left: 31px; }
+
+#topnav a   	{ font-size:28px; font-style:italic; text-decoration:none;}
+#topnav a:link 		{ color:#D90000}
+#topnav a:hover 	{ color:#000000 }
+#topnav a:visited 	{color:#D90000}
+
+#content	{ width:560px;	height:750px; float:right; background-image:url(../img/containers/main_container.fw.png); margin-right:65px;}	
+#content .slider {width:550px; height:260px; background-image:url(../img/slider/H9.fw.png); margin-left:5px; margin-top:5px;}		
+
+				
+#sidebar	{ width:260px;	height:660px; float:left; background-image:url(../img/containers/sidebar.fw.png); margin-left:102px;}
+#sidebar H1 {padding-left:10px; color:#ECEAEA	}
+#footer	 	{ width:1018px;	clear:both; background-image:url(../img/banner/footer.fw.png); background-repeat: no-repeat; margin-top: 766px; }
+
+#content H1, p, h2  {padding-left:10px; color:#ECEAEA}
+
+#footer ul li {display:inline;color:#ECEAEA; font-size:13px; }
+#footer .designer {padding-right:640px; margin-left:10px;}

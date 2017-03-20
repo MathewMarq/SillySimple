@@ -1,0 +1,27 @@
+@charset "utf-8";
+
+#slider {width:546px; height:260px;  margin-left:5px; margin-top:5px; display:block; position:absolute;}
+
+.slider-items { display:block; z-index:99;}
+
+
+
+.caption {
+	width: 540px;
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+	display: block;
+	position: absolute;
+	background-color: rgba(0,0,0,.8);
+	color: #ECEAEA;
+	top: 192px;
+	left: 0px;
+	border-top-right-radius: 20px;
+}
+
+#pager { width:550px; text-align:center; display:block; position:absolute; z-index:99;  }
+
+#pager a { width:10px; height:10px; display:inline-block; position:relative; background-color: #333333; border:1 px solid #333333; margin: 0 10px; border-radius: 20px; font-size:.0em; color:transparent;}
+
+#pager a.activeSlide {background-color:#FFFFFF; }

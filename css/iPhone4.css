@@ -1,0 +1,20 @@
+@media (max-width: 375px){
+}
+#wrapper 	{ width:335px; margin:0px auto; }
+
+body 	 	{
+	background-image:url(../img/bg/smallback.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	max-width: 375px;
+}
+
+#header 	{ width:327px; height:350px; background-image:url(../img/banner/small_navbar.fw.png); margin-top:10px;}
+
+#topnav 		{ width:238px;	margin-right:40px;padding-top:120px;}
+#topnav ul li 	{ display:block; padding-bottom:7px; text-align:center}
+#topnav ul li 	{  margin-left: 1px; }
+
+
+
+

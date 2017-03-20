@@ -1,0 +1,50 @@
+@import url("contactPageCss.css");
+/* CSS Document */
+
+*			{ margin:0; Padding:0; border:0; }
+
+body, html 	{ min-height:100%; }
+
+body 	 	{ background-image:url(../img/bg/background1200x1000.fw.png); background-repeat:no-repeat; background-size: cover; font-family:Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif; z-index:-100;}
+
+#wrapper 	{ width:1010px; margin:0px auto; }
+
+#header 	{ width:991px; height:188px; background-image:url(../img/banner/index_navbar.fw.png); margin-top:10px; }
+
+#chains_header { width:991px; height:188px; background-image:url(../img/banner/two_chains_navbar.fw.png); margin-top:10px;  }
+
+#topnav 		{ width:500px; float:right;	padding-top:60px;}
+#topnav ul li 	{ display:inline; margin-left: 31px; }
+#topnav a   { font-size:28px; font-style:italic; text-decoration:none; color:#D80000}
+#topnav a:link 		{ color:#D80000}
+#topnav a:hover 	{ color:#000000}
+a:link, a:visited {color: #000000;}
+
+#large_content { width:860px; height:750px;  background-image:url(../img/containers/800_container.fw.png); margin-left:95px; background-repeat:no-repeat; }
+.large_map {width:827px; height:300px; margin-left:4px; bottom:8px;}	
+#email {width:827px; height:443px;}
+
+
+#content	{ width:560px;	height:750px; float:right; background-image:url(../img/containers/main_container.fw.png); margin-right:65px; background-repeat:no-repeat}	
+#content .slider {width:550px; height:260px;  margin-left:5px; }		
+.welcome_content {margin-top:300px;}
+
+				
+#sidebar	{ width:261px;	height:660px; float:left; background-image:url(../img/containers/sidebar.fw.png); margin-left:100px; background-repeat:no-repeat; }
+#sidebar H1 {padding-left:10px; color:#ECEAEA	}
+#sidebar .minimap {margin-left:5px; margin-top:21px;  }
+#sidebar .opening_times {margin-top:38px;}
+
+
+#twochains_footer { width:1018px;	clear:both; background-image:url(../img/banner/footer.fw.png); background-repeat:no-repeat; bottom:-1px;}
+#twochains_footer ul li{display:inline;color:#ECEAEA; font-size:13px; }
+#twochains_footer .designer {padding-right:640px; margin-left:10px;}
+
+#footer	 	{ width:1018px;	clear:both; background-image:url(../img/banner/footer.fw.png); background-repeat:no-repeat; margin-top: 770px; }
+#content H1, p, h2  {
+	padding-left: 10px;
+	color: #ECEAEA;
+}
+#footer ul li {display:inline;color:#ECEAEA; font-size:13px; }
+#footer .designer {padding-right:640px; margin-left:10px;}
+

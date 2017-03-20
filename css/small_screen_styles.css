@@ -1,0 +1,67 @@
+/* CSS Document */
+@media (max-width: 375px) {
+}
+body 	 	{
+	background-color:#1E1E1E;
+	margin: 0;
+	
+}
+#logo img{
+	display: block;
+  margin: 0 auto;
+	
+}
+
+#topnav 		{ margin-top: 15%; }
+#topnav ul li 	{ display:inline;}
+#topnav p{
+	font-family:Arial Verdana, sans-serif;
+	color:#B2B2B2;
+	font-size:25px;
+	text-align: center;
+}
+
+#login p{
+	font-family:Arial Verdana, sans-serif;
+	color:#B2B2B2;
+	font-size:30px;
+	text-align: center;
+	
+}
+
+#login a{
+	font-family:Arial Verdana, sans-serif;
+	color:#B2B2B2;
+	font-size:15px;
+	text-align: center;
+	display:inline;
+	
+}
+#login ul li a{ display:inline;}
+
+#form ul li {display:inline;}
+
+.index_buttons {
+	
+	
+	width: 300px;
+	margin-top:30px;
+  
+   padding: 7px;
+   -webkit-border-radius: 6px;
+   -moz-border-radius: 6px;
+   border-radius: 6px;
+   font-family:Arial Verdana, sans-serif;
+	color:#1E1E1E;
+	font-size:30px;
+	text-align:center;
+   }
+.index_buttons:hover {
+   border-top-color: #28597a;
+   background: #28597a;
+   color: #ccc;
+   }
+.index_buttons:active {
+   border-top-color: #1b435e;
+   background: #1b435e;
+   }
