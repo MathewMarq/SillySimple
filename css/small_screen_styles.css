@@ -37,9 +37,10 @@ body 	 	{
 	display:inline;
 	
 }
-#login ul li a{ display:inline;}
+#login ul li a .login_text{ 
+width:500px;
+display:inline;}
 
-#form ul li {display:inline;}
 
 .index_buttons {
 	
