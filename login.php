@@ -27,7 +27,7 @@ and password='".md5($password)."'";
         if($rows==1){
 	    $_SESSION['username'] = $username;
             // Redirect user to index.php
-	    header("Location: dashboard.php");
+	    header("Location: index.php");
          }else{
 	echo "<div class='form'>
 <h3>Username/password is incorrect.</h3>
